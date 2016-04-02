@@ -1,0 +1,9 @@
+# -MSCV-3D-Photography
+3D photography using weak structured light
+Based on Work by J.Y Bouget
+
+In this work, we present cheap 3D-scanning technique that uses a USB camera, a led light and a thin cylindrical object to cast shadow.
+The USB camera is calibrated using a planer homography. The led light's location is obtained using shadow of thin object with known height, 
+placed at different locations in the plane.
+
+The triagulation is obtained by intersectio of shadow plane and the ray of light from the camera.
